@@ -15,4 +15,3 @@ if __name__ == "__main__":
     print(", ".join(row[0] for row in cur.fetchall()))
     cur.close()
     db.close()
-    
